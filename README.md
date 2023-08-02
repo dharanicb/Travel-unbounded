@@ -4,7 +4,7 @@ In this project, let's build a **Welcome App** by applying the concepts we have 
 
 <br/>
 <div style="text-align: center;">
-<img src="https://assets.ccbp.in/frontend/content/react-js/welcome-app-output-v2.gif" alt="welcome app output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+<img src="https://drive.google.com/uc?id=1_us1hKdXxZI0I1XXR52vUb36EYNjYho-" alt="welcome app output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 <br/>
 
