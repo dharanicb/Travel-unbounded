@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  overflow: scroll;
+  height: 100vh;
+}
+.header {
+  background-color: #007bff;
+  padding: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-style: italic;
+}
+
+.section-title {
+  color: #007bff;
+}
+
+.itinerary-list {
+  list-style-type: none;
+  padding: 0;
+  color: #fff;
+}
+
+.itinerary-list li {
+  margin-bottom: 1rem;
+}
+
+.cta {
+  background-color: #f2f2f2;
+  padding: 3rem;
+  margin-top: 0px;
+}
+
+.cta-text {
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  animation: changeBackground 10s infinite;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url('https://drive.google.com/uc?id=1dtGTJEtCN_pQRLPRHlp4C9t4knmfkJ0J');
+  }
+  25% {
+    background-image: url('https://drive.google.com/uc?id=1CDlPElNKf-oO1J4LW3krtkhHvFcqXNPa');
+  }
+  50% {
+    background-image: url('https://drive.google.com/uc?id=1ZC7v1vP79K7adfnuxU76rvNLT8Yv7G2h');
+  }
+  75% {
+    background-image: url('https://drive.google.com/uc?id=1Of6LVdTkGXXQ-AZ0-cWoZHrOWed1ycgP');
+  }
+  100% {
+    background-image: url('https://drive.google.com/uc?id=1_QaFc9pq-AZK9eJV5ENyV0dv5e86N53F');
+  }
+}
+
+.header_logo {
+  cursor: pointer;
+}
